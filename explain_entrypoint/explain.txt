@@ -1,0 +1,8 @@
+1. Mặc định docker có một entrypoint mặc định là "/bin/sh -c" và không có command mặc định.
+
+Nên sẽ chạy được command: docker run -it centos:7 bash
+Sau đó show = câu lệnh: ps -xau -> sẽ thấy tiến trình bash đang chạy
+
+2. Ví dụ viết lại image có thay đổi entrypoint
+
+

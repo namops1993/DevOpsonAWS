@@ -1,0 +1,9 @@
+FROM centos:7
+
+LABEL author="Nam Nguyen Hoai"
+
+WORKDIR /root/my_config
+
+VOLUME [ "/var/log" ]
+
+CMD [ "sleep", "1000" ]

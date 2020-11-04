@@ -1,0 +1,9 @@
+FROM centos:7
+
+LABEL author="Nam Nguyen Hoai"
+
+WORKDIR /app
+
+RUN echo "This is origin file" > ./devops.txt
+
+CMD [ "cat", "/app/devops.txt" ]
